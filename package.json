@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "pangu-web",
+  "productName": "pangu-web",
+  "description": "My wonderful Vue project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single"
+  },
+  "babel": {
+    "presets": []
+  },
+  "author": {
+    "name": "sinchang",
+    "email": "sinchangwen@gmail.com"
+  },
+  "dependencies": {
+    "bulma": "^0.6.1",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "pangu": "^3.3.0",
+    "promise-polyfill": "^6.0.2",
+    "v-copy": "^0.1.0"
+  },
+  "devDependencies": {
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "serve": "^3.1.0"
+  }
+}
