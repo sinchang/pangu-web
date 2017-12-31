@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <github-badge slug="sinchang/pangu-web" />
     <section class="hero is-primary">
       <div class="hero-body">
         <div class="container">
@@ -41,6 +42,7 @@
 
 <script>
   import pangu from 'pangu'
+  import GitHubBadge from 'vue-github-badge'
 
   export default {
     name: 'app',
@@ -64,6 +66,9 @@
     },
     mounted() {
       this.transfer()
+    },
+    components: {
+      'github-badge': GitHubBadge
     }
   }
 </script>

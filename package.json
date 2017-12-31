@@ -31,7 +31,8 @@
     "object-assign": "^4.1.1",
     "pangu": "^3.3.0",
     "promise-polyfill": "^6.0.2",
-    "v-copy": "^0.1.0"
+    "v-copy": "^0.1.0",
+    "vue-github-badge": "^1.0.1"
   },
   "devDependencies": {
     "babel-preset-vue-app": "2.0.0",
